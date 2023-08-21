@@ -1,0 +1,116 @@
+ @import url('https://fonts.googleapis.com/css2?family=Acme&family=Bitter&family=Handjet&family=Inconsolata&family=Inter&family=Noto+Sans:wght@400;700&family=Roboto+Mono:ital@1&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono'; 
+}
+
+nav{
+    height: 100vh;
+    width: 260px;
+    width: 50vw;
+    background: rgba(91, 18, 160, 0.685);
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.expandir{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.expandir i{
+    font-size: 30px;
+    color: #fff;
+    height: 50px;
+    min-width: 78px;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+}
+
+.expandir .text-list{
+   font-size: 22px;
+   color: #fff;
+   letter-spacing: 3px;
+   font-weight: 700;
+   
+}
+
+.nav-links{
+    height: 100%;
+    padding: 30px 0 150px 0;
+    overflow: auto;
+}
+
+.nav-links::-webkit-scrollbar{
+    display: none;
+
+}
+
+li{
+    list-style: none;
+    position: relative;
+
+}
+
+li:hover{
+    background: #7a52c5;
+
+}
+
+.icon-li{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+li i{
+    height: 50px;
+    color:#fff;
+    min-width: 78px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+li a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+
+}
+
+li .text-list{
+    font-size: 18px;
+    color: #fff;
+    font-weight: 400;
+}
+
+li .sub-menu{
+
+    padding: 6px 6px 14px 80px;
+    margin-top: -10px;
+    /*display: none;*/
+}
+
+li .sub-menu a{
+    color: #fff;
+    font-size: 15px;
+    padding: 5px 0;
+    white-space: nowrap;
+    opacity: 0.6;
+}
+
+li .sub-menu a:hover{
+    opacity: 1;
+}
