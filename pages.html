@@ -22,10 +22,10 @@
 
             <li class="item-menu">
                 <div class="icon-li">
-                    <a href="#" class="icones">
-
-                    <i class="bi bi-house-door"></i>
-                    <span class="text-list">
+                    
+                    <a href="#" class="home">
+                    <i class="bi bi-house-door home"></i>
+                    <span class="text-list home">
                         Home
 
                     </span>
@@ -36,8 +36,9 @@
             <li class="item-menu">
                 <div class="icon-li">
 
-                    <a href="#" class="icones">                       <i class="bi bi-bar-chart"></i>
-                        <span class="text-list">
+                    <a href="#" class="dashboard"> 
+                    <i class="bi bi-bar-chart dashboard"></i>
+                    <span class="text-list dashboard">
                             Dashboard
 
                         </span>
@@ -124,6 +125,28 @@
         </ul>
 
     </nav>
+
+    <div id="conteudo">
+
+        
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" 
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" 
+    crossorigin="anonymous">
+</script>
+
+<script>
+
+    $(".home").click(function(){
+
+        $("#conteudo").load("pages/home.html");
+
+    });
+
+</script>
+
 </body>
 
 </html>
