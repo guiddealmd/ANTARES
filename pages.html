@@ -50,15 +50,15 @@
             <li class="item-menu">
                 <div class="icon-li">
 
-                 <a href="#" class="icones">
-                        <i class="bi bi-person"></i>
+                 <a href="#" class="cliente">
+                        <i class="bi bi-person cliente"></i>
 
-                        <span class="text-list">
+                        <span class="text-list cliente">
                             Cliente
 
                         </span>
 
-                        <i class="bi bi-arrow-down-short"></i>
+                        <i class="bi bi-arrow-down-short cliente"></i>
 
                     </a>
 
@@ -76,15 +76,15 @@
             <li class="item-menu">
                 <div class="icon-li">
 
-                    <a href="#" class="icones">
-                       <i class="bi bi-box-seam"></i>
+                    <a href="#" class="estoque">
+                       <i class="bi bi-box-seam estoque"></i>
 
-                        <span class="text-list">
+                        <span class="text-list estoque">
                             Estoque
 
                         </span>
 
-                        <i class="bi bi-arrow-down-short"></i>
+                        <i class="bi bi-arrow-down-short estoque"></i>
 
                     </a>
 
@@ -101,14 +101,14 @@
             <li class="item-menu">
                 <div class="icon-li">
 
-                    <a href="#" class="icones">                        <i class="bi bi-piggy-bank"></i>
+                    <a href="#" class="financeiro">                        <i class="bi bi-piggy-bank"></i>
 
-                        <span class="text-list">
+                        <span class="text-list financeiro">
                             Financeiro
 
                         </span>
 
-                        <i class="bi bi-arrow-down-short"></i>
+                        <i class="bi bi-arrow-down-short financeiro"></i>
 
 
 
@@ -142,6 +142,46 @@
     $(".home").click(function(){
 
         $("#conteudo").load("pages/home.html");
+
+    });
+
+</script>
+
+<script>
+
+    $(".dashboard").click(function(){
+
+        $("#conteudo").load("pages/dashboard.html");
+
+    });
+
+</script>
+
+<script>
+
+    $(".cliente").click(function(){
+
+        $("#conteudo").load("pages/cliente.html");
+
+    });
+
+</script>
+
+<script>
+
+    $(".estoque").click(function(){
+
+        $("#conteudo").load("pages/estoque.html");
+
+    });
+
+</script>
+
+<script>
+
+    $(".financeiro").click(function(){
+
+        $("#conteudo").load("pages/financeiro.html");
 
     });
 
